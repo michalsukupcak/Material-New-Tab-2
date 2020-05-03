@@ -1,0 +1,33 @@
+.App {
+    padding: 0 0 64px 0;
+}
+
+.App > * {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.App > .Settings {
+    margin: 16px auto auto auto;
+    max-width: 1120px;
+}
+
+.App > .Logo {
+    margin: 156px auto auto auto;
+    max-width: 512px;
+}
+
+.App > .Search {
+    margin: 64px auto auto auto;
+    max-width: 1120px;
+}
+
+.App > .Shortcuts {
+    margin: 36px auto auto auto;
+    max-width: 1120px;
+}
+
+.App > .Bookmarks {
+    margin: 36px auto auto auto;
+    max-width: 1120px;
+}

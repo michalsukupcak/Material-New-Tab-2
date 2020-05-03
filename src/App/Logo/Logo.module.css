@@ -1,0 +1,15 @@
+.Logo {
+    text-align: center;
+}
+
+.Logo > .image {
+    max-width: 100%;
+}
+
+.Logo > .tagline {
+    color: #666;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 12px 0 0 0;
+    text-align: right;
+}

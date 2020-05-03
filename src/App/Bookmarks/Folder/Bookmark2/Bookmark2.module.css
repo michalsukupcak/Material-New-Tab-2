@@ -1,0 +1,48 @@
+.Bookmark2 {
+    align-items: center;
+    border-radius: 3px;
+    color: #333;
+    /*display: flex;*/
+    padding: 6px;
+    text-decoration: none;
+    transition: .2s ease;
+    width: 190px;
+    z-index: 1;
+}
+
+.Bookmark2:hover {
+    background: #F0F0F0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.04), 0 3px 6px rgba(0,0,0,0.06);
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.Bookmark2:active {
+    transform: scale(.9);
+}
+
+.Bookmark2 > .image {
+    background: white;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    box-sizing: border-box;
+    transition: .2s ease;
+    width: 190px;
+    height: 190px;
+    max-width: 100%;
+    margin: 0 9px 0 0;
+    padding: 3px;
+}
+
+.Bookmark2 > .name {
+    font-size: .95rem;
+    font-weight: lighter;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Bookmark2:hover > .name {
+    font-weight: normal;
+}
+

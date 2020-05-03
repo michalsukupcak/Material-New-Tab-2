@@ -1,0 +1,36 @@
+.Card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 36px 36px 24px 36px;
+}
+
+.Card > .header {
+    align-items: center;
+    display: flex;
+    margin: auto auto 36px auto;
+}
+
+.Card > .header > .left {
+    flex: 1;
+    margin: 0 0 0 12px;
+}
+
+.Card > .header > .left > .title {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.Card > .header > .right {
+    flex: 0;
+    margin: 0 12px 0 0;
+}
+
+.Card > .content {
+
+}
+
+.Card > .footer {
+    margin: 24px auto auto auto;
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+.Settings {
+    text-align: right;
+}
+
+.Settings > .Button {
+    color: #AAA;
+    transition: .2s ease;
+    padding: 6px 12px;
+}
+
+.Settings > .Button:hover {
+    color: #666;
+    transform: scale(1.2);
+}
+
+.Settings > .Button:active {
+    transform: scale(.9);
+}
+
+.Settings > .Menu {}
+
+.Settings > .Menu > .title {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 12px 24px;
+}
+
+.Settings > .Menu > .separator {
+    border: none;
+    border-top: 1px solid #CCC;
+    height: 0;
+    margin: 12px 0;
+    width: 90%;
+}

@@ -1,0 +1,11 @@
+/.idea
+
+/node_modules
+
+/build
+
+/icons
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

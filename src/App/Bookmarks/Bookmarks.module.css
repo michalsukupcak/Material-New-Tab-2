@@ -1,0 +1,55 @@
+.Bookmarks {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    max-width: 1120px;
+    padding: 36px 36px 24px 36px;
+    width: 100%;
+}
+
+.Bookmarks > .header {
+    align-items: center;
+    display: flex;
+    margin: auto auto 36px auto;
+}
+
+.Bookmarks > .header > .left {
+    flex: 1;
+    margin: 0 0 0 12px;
+}
+
+.Bookmarks > .header > .left > .title {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.Bookmarks > .header > .right {
+    flex: 0;
+    margin: 0 12px 0 0;
+}
+
+.Bookmarks > .content {
+
+}
+
+.Bookmarks > .content > .Folder {
+    border-bottom: 1px solid #EEE;
+    margin: 0 0 38px 0;
+    padding: 0 0 36px 0;
+}
+
+.Bookmarks > .content > .Folder:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.Bookmarks > .footer {
+    margin: 24px auto auto auto;
+    text-align: center;
+}
+
+.Bookmarks > .footer > .Button {
+    color: #1A73E8;
+}

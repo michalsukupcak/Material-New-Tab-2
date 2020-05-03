@@ -1,0 +1,15 @@
+.Search {
+    background: #F0F0F0;
+    border-radius: 12px;
+    box-sizing: border-box;
+    transition: .2s ease;
+}
+
+.Search:hover {
+    background: #E5E5E5;
+}
+
+.Search > .input {
+    padding: 24px 42px;
+    width: 100%;
+}

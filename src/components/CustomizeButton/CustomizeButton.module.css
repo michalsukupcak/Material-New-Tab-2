@@ -1,0 +1,15 @@
+.CustomizeButton {}
+
+.CustomizeButton > .Button {
+    color: #CCC;
+    padding: 6px 12px;
+    transition: .2s ease;
+}
+.CustomizeButton > .Button:hover {
+    color: #AAA;
+    transform: scale(1.2);
+}
+
+.CustomizeButton > .Button:active {
+    transform: scale(.9);
+}

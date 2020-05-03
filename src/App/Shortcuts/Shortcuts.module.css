@@ -1,0 +1,48 @@
+.Shortcuts {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 36px 36px 24px 36px;
+}
+
+.Shortcuts > .header {
+    align-items: center;
+    display: flex;
+    margin: auto auto 36px auto;
+}
+
+.Shortcuts > .header > .left {
+    flex: 1;
+    margin: 0 0 0 12px;
+}
+
+.Shortcuts > .header > .left > .title {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.Shortcuts > .header > .right {
+    flex: 0;
+    margin: 0 12px 0 0;
+}
+
+.Shortcuts > .content {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Shortcuts > .content > .Shortcut {
+    flex: 0;
+    flex-basis: 50px; /* Sum of border (.icon, 1+1px), padding (.icon, 6+6px) and img width (.image, 36px) from ./Shortcut/Shortcut.module.css */
+    margin: 0 12px;
+}
+
+.Shortcuts > .footer {
+    margin: 24px auto auto auto;
+    text-align: center;
+}
+
+.Shortcuts > .footer > .Button {
+    color: #1A73E8;
+}
